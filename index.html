@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Video player</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="lib/jquery-3.4.1.js"></script>
+</head>
+<body>
+
+    <a id="test"></a>
+    <div id="cnt" class="container">
+        <div class="containerVideo">
+            <video class="video"></video>
+            <div class="controls">
+                <div class="orange-bar">
+                    <canvas id=orange-juice width="10px" height="10px"></canvas>
+                </div>
+                <div class="canvasButtons">
+                    <canvas id="play" width="20px" height="20px"></canvas>
+                    <canvas id="pause" width="20px" height="20px"></canvas>
+                    <canvas id="back" width="20px" height="20px"></canvas>
+                    <canvas id="forward" width="20px" height="20px"></canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="Buttons">
+        <button id="screenShotBtn" class="blueBtn">Screen Shot</button>
+        <button id="efects" class="blueBtn">Effects</button>
+    </div>
+    <div id="box">
+        <div id=container-box>
+            <canvas id="ssCanv" width="20" height="20"></canvas>
+        </div>
+    </div>
+
+    <canvas class="destination"></canvas>
+
+    <script src="https://html2canvas.hertzen.com/dist/html2canvas.js"></script>
+
+</body>
+
+
+
+
+
+</html>
